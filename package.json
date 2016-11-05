@@ -1,8 +1,8 @@
 {
-  "name": "jszip",
-  "version": "3.1.3",
+  "name": "jszip-sync",
+  "version": "3.1.3sync",
   "author": "Stuart Knightley <stuart@stuartk.com>",
-  "description": "Create, read and edit .zip files with Javascript http://stuartk.com/jszip",
+  "description": "Create, read and edit .zip files with Javascript, with sync capabilities, forked from http://stuartk.com/jszip",
   "scripts": {
     "test": "npm run test-node && npm run test-browser",
     "test-node": "qunit-cli -c test/helpers/test-utils.js test/helpers/node-test-utils.js test/asserts/*.js",
@@ -21,6 +21,9 @@
     },
     {
       "name": "yiminghe"
+    },
+    {
+      "name": "Eric Vergnaud"
     }
   ],
   "main": "./lib/index",
@@ -29,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stuk/jszip.git"
+    "url": "https://github.com/ericvergnaud/jszip.git"
   },
   "keywords": [
     "zip",
