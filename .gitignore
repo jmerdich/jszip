@@ -2,3 +2,4 @@
 node_modules
 sauce_connect.log
 .c9revisions
+bower_components

@@ -22,7 +22,8 @@ test("Rejecting a promise", function(assert) {
 
 test("Throwing an error", function(assert) {
     assert.throws(function() {
-        var promise = new SyncPromise(function(resolve, reject){
+        var promise = new SyncPromise(function(resolve, reject) {
+            /* global b */
             var a = b.c;
         });
         promise.result(); },
